@@ -6,7 +6,7 @@ from enlace_base import client
 
 # se obtiene la colección general (base de datos)
 
-db = client.ciudadloja
+db = client.paisecuador
 coleccion = db.autores
 
 # conjunto de datos a guardar en la colección
@@ -19,12 +19,12 @@ data_01 = {"nombre": "Luis", "apellido": "Valencia",
 
 # proceso que agrega una lista de documentos
 lista = [
-{"ciudad": "Loja", "comidas": "cecina", "lugares":"eolicos",
+{"pais": "ecuador", "presidente": "lasso", "lugares":"loja",
 "poblacion": 200000},
-{"ciudad": "Loja", "comidas": "repe", "lugares":"vilcabamba",
-"poblacion": 10000},
-{"ciudad": "Loja", "comidas": "fritada", "lugares":"malacatos",
-"poblacion": 15000}
+{"pais": "ecuador", "presidente": "lasso", "lugares":"eloro",
+"poblacion": 2000},
+{"pais": "ecuador", "presidente": "lasso", "lugares":"azuay",
+"poblacion": 100000}
 ]
 
 coleccion.insert_many(lista)

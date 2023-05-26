@@ -6,7 +6,7 @@ from enlace_base import client
 
 # se obtiene la colección general (base de datos)
 
-db = client.ciudadloja
+db = client.paisecuador
 coleccion = db.autores
 
 # se usa método find_one, a partir de la colección
