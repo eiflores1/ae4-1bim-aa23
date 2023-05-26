@@ -19,10 +19,12 @@ data_01 = {"nombre": "Luis", "apellido": "Valencia",
 
 # proceso que agrega una lista de documentos
 lista = [
-{"nombre": "José", "apellido": "Medina", "nacionalidad":"ecuatoriana",
-"numero_publicaciones": 90},
-{"nombre": "María", "apellido": "Velez", "nacionalidad":"peruana",
-"numero_publicaciones": 80}
+{"ciudad": "Loja", "comidas": "cecina", "lugares":"eolicos",
+"poblacion": 200000},
+{"ciudad": "Loja", "comidas": "repe", "lugares":"vilcabamba",
+"poblacion": 10000},
+{"ciudad": "Loja", "comidas": "fritada", "lugares":"malacatos",
+"poblacion": 15000}
 ]
 
 coleccion.insert_many(lista)
