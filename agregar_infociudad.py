@@ -2,7 +2,7 @@
     Agregar información en una colección de MongoDB
     desde Python
 """
-from enlace_base import client
+from enlace_baseciudad import client
 
 # se obtiene la colección general (base de datos)
 
