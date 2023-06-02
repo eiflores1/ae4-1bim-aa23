@@ -2,7 +2,7 @@
     Agregar información en una colección de MongoDB
     desde Python
 """
-from enlace_basep import client
+from enlace_basepais import client
 
 db = client.paisecuador
 coleccion = db.autores

@@ -2,7 +2,7 @@
     Consultar información en una colección de MongoDB
     desde Python
 """
-from enlace_base import client
+from enlace_baseciudad import client
 
 db = client.ciudadloja
 coleccion = db.autores

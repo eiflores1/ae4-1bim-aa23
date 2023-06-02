@@ -2,15 +2,9 @@
     Consultar información en una colección de MongoDB
     desde Python
 """
-<<<<<<< HEAD:consultar_informacionáis.py
-from enlace_basep import client
+from enlace_basepais import client
 
 db = client.paisecuador
-=======
-from enlace_base import client
-
-db = client.ciudadloja
->>>>>>> 0a2f48fea414d0e887a24306d54917e4074064a4:consultar_informacion.py
 coleccion = db.autores
 
 print("Muestra un solo documento de la base de datos")
